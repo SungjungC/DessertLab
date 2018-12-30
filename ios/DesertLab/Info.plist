@@ -56,5 +56,34 @@
 			</dict>
 		</dict>
 	</dict>
+  <key>CFBundleURLTypes</key>
+  <array>
+    <dict>
+      
+<!--      붙여넣기 시작-->
+
+      <key>CFBundleURLSchemes</key>
+      <array>
+        <string>fb{355827068591869}</string>
+      </array>
+    </dict>
+  </array>
+  <key>FacebookAppID</key>
+  <string>{355827068591869}</string>
+  <key>FacebookDisplayName</key>
+  <string>{DessertLab}</string>
+  <key>LSApplicationQueriesSchemes</key>
+  <array>
+    <string>fbapi</string>
+    <string>fb-messenger-api</string>
+    <string>fbauth2</string>
+    <string>fbshareextension</string>
+  </array>
+  <key>NSPhotoLibraryUsageDescription</key>
+  <string>Need Photo</string>
+  
+
+  <!--붙여넣기 끝 -->
+  
 </dict>
 </plist>
