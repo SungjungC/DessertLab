@@ -1,4 +1,4 @@
-package com.desertlab;
+package com.dessertlab;
 
 import android.app.Application;
 

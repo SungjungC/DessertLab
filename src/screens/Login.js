@@ -32,7 +32,7 @@ import {Navigation} from 'react-native-navigation'
              <View style={styles.logoContainer}>
              <Image 
                 style={styles.logo}
-                source={require('./images/Dlablogo.png')} 
+                source={require('../images/Dlablogo.png')} 
              />
 
                 <Text style={styles.title}>Dessert Laboratory</Text>
