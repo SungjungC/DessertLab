@@ -1,4 +1,4 @@
-package com.rnn2;
+package com.dessertlab;
 
 import android.app.Application;
 
