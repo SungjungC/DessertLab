@@ -322,6 +322,20 @@
 			remoteGlobalIDString = 58B5119B1A9E6C1200147676;
 			remoteInfo = RCTText;
 		};
+		98C2593621DA1D8E00AB5E1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98C2590C21DA1D8E00AB5E1C /* ReactNativeNavigation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D8AFADBD1BEE6F3F00A4592D;
+			remoteInfo = ReactNativeNavigation;
+		};
+		98C2593821DA1D8E00AB5E1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98C2590C21DA1D8E00AB5E1C /* ReactNativeNavigation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7B49FEBB1E95090800DEB3EA;
+			remoteInfo = ReactNativeNavigationTests;
+		};
 		ADBDB9261DFEBF0700ED6528 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */;
@@ -621,6 +635,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		98C2590D21DA1D8E00AB5E1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98C2593721DA1D8E00AB5E1C /* libReactNativeNavigation.a */,
+				98C2593921DA1D8E00AB5E1C /* ReactNativeNavigationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		ADBDB9201DFEBF0600ED6528 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -790,8 +813,13 @@
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 				},
 				{
+<<<<<<< HEAD:ios/DessertLab.xcodeproj/project.pbxproj
 					ProductGroup = 18CCF40521DCBED7003D5DE6 /* Products */;
 					ProjectRef = 18CCF40421DCBED7003D5DE6 /* ReactNativeNavigation.xcodeproj */;
+=======
+					ProductGroup = 98C2590D21DA1D8E00AB5E1C /* Products */;
+					ProjectRef = 98C2590C21DA1D8E00AB5E1C /* ReactNativeNavigation.xcodeproj */;
+>>>>>>> 931c3652d7c6bd5054d984f184327adb071a1b6c:ios/DesertLab.xcodeproj/project.pbxproj
 				},
 			);
 			projectRoot = "";
@@ -1069,6 +1097,20 @@
 			fileType = archive.ar;
 			path = libRCTText.a;
 			remoteRef = 832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		98C2593721DA1D8E00AB5E1C /* libReactNativeNavigation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReactNativeNavigation.a;
+			remoteRef = 98C2593621DA1D8E00AB5E1C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		98C2593921DA1D8E00AB5E1C /* ReactNativeNavigationTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ReactNativeNavigationTests.xctest;
+			remoteRef = 98C2593821DA1D8E00AB5E1C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */ = {

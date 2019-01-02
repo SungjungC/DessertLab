@@ -3,15 +3,17 @@ import {
   View,
   Text,
   StyleSheet,
-  Button
+  Button,
+  ScrollView
 } from "react-native";
 
 class Home extends Component{
   render(){
     return(
+      <ScrollView>
       <View style={styles.container}>
-        <Text>Home</Text>
       </View>
+      </ScrollView>
     );
   }
 }
