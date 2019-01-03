@@ -11,9 +11,13 @@ import { Navigation } from 'react-native-navigation'
 
 import Login from './src/screens/Login'
 import Home from './src/screens/Home'
+import SignIn from './src/screens/SignIn'
+
 
 Navigation.registerComponent('Login',() => Login)
 Navigation.registerComponent('Home',() => Home)
+Navigation.registerComponent('SignIn',() => SignIn)
+
 
 Navigation.events().registerAppLaunchedListener(()=>{
     Navigation.setRoot({

@@ -21,7 +21,7 @@ class WelcomeScreen extends Component{
       <View style={styles.container}>
         <Button title='Sign In' onPress={()=> this.goToScreen('SignIn')}/>
         <Button title='Sign Up' onPress={()=> this.goToScreen('SignUp')}/>
-        <Button title='Login' onPress={()=> this.goToScreen('Login')}/>
+        <Button title='Login' onPress={()=> this.goToScreen('SignIn')}/>
       </View>
     );
   }
