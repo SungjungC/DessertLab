@@ -1,14 +1,14 @@
 import React, {Component } from 'react'
-import { 
-    StyleSheet, 
-    View, 
-    Image, 
-    Text, 
+import {
+    StyleSheet,
+    View,
+    Image,
+    Text,
     KeyboardAvoidingView,
-    Platform, 
+    Platform,
     TextInput,
     TouchableOpacity,
-    StatusBar, 
+    StatusBar,
     Button
 } from 'react-native'
 import {Navigation} from 'react-native-navigation'
@@ -28,11 +28,11 @@ import {Navigation} from 'react-native-navigation'
     render() {
         return(
           <KeyboardAvoidingView behavior="padding" style ={styles.container}>
-          
+
              <View style={styles.logoContainer}>
-             <Image 
+             <Image
                 style={styles.logo}
-                source={require('../images/Dlablogo.png')} 
+                source={require('../images/Dlablogo.png')}
              />
 
                 <Text style={styles.title}>Dessert Laboratory</Text>
@@ -61,14 +61,14 @@ import {Navigation} from 'react-native-navigation'
           />
          <TouchableOpacity
          style={styles.buttonContiner}
-         onPress={()=> this.goToScreen('Home')}>
+         onPress={()=> this.goToScreen('Tab')}>
         <Text style={styles.buttonText}>LOGIN</Text>
         </TouchableOpacity>
              </View>
             </KeyboardAvoidingView>
         );
 
-    } 
+    }
 }export default Login;
 
 const styles = StyleSheet.create({
@@ -86,7 +86,7 @@ const styles = StyleSheet.create({
         width : 170,
         height : 100
     },
-    title:{ 
+    title:{
         color :'white',
         width: 160,
         textAlign: 'center',

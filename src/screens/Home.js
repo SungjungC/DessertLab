@@ -6,7 +6,13 @@ import {
   Button
 } from "react-native";
 
+
+
+
 class Home extends Component{
+  static navigationOptions = {
+    tabBarLabel:'Home'
+  }
   render(){
     return(
       <View style={styles.container}>

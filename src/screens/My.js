@@ -6,16 +6,19 @@ import {
   Button
 } from "react-native";
 
-class SignIn extends Component{
+class My extends Component{
+  static navigationOptions = {
+    tabBarLabel:'My'
+  }
   render(){
     return(
       <View style={styles.container}>
-        <Text>SignIn</Text>
+        <Text>My</Text>
       </View>
     );
   }
 }
-export default SignIn;
+export default My;
 
 const styles = StyleSheet.create({
   container: {

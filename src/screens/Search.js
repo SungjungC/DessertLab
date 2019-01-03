@@ -6,16 +6,19 @@ import {
   Button
 } from "react-native";
 
-class SignIn extends Component{
+class Search extends Component{
+  static navigationOptions = {
+    tabBarLabel:'Search'
+  }
   render(){
     return(
       <View style={styles.container}>
-        <Text>SignIn</Text>
+        <Text>Search</Text>
       </View>
     );
   }
 }
-export default SignIn;
+export default Search;
 
 const styles = StyleSheet.create({
   container: {

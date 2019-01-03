@@ -3,10 +3,10 @@
 import { Navigation } from 'react-native-navigation'
 
 import Login from './src/screens/Login'
-import Home from './src/screens/Home'
+import Tab from './src/screens/Tab'
 
 Navigation.registerComponent('Login',() => Login)
-Navigation.registerComponent('Home',() => Home)
+Navigation.registerComponent('Tab',() => Tab)
 
 Navigation.events().registerAppLaunchedListener(()=>{
     Navigation.setRoot({
@@ -29,6 +29,6 @@ Navigation.events().registerAppLaunchedListener(()=>{
                     },
                 ]
             }
-        }    
+        }
     })
 })

@@ -6,16 +6,19 @@ import {
   Button
 } from "react-native";
 
-class Home extends Component{
+class Best extends Component{
+  static navigationOptions = {
+    tabBarLabel:'Best'
+  }
   render(){
     return(
       <View style={styles.container}>
-        <Text>Home</Text>
+        <Text>Best</Text>
       </View>
     );
   }
 }
-export default Home;
+export default Best;
 
 const styles = StyleSheet.create({
   container: {
