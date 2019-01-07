@@ -51,7 +51,7 @@ class Home extends Component{
           <View>
            <TouchableOpacity
          style={[styles.itemContainer, { backgroundColor: item.code }]}
-         onPress={()=> this.goToScreen('SignIn')}
+         onPress={()=> this.goToScreen('ScrollViewP')}
         >
         </TouchableOpacity>
           </View>
