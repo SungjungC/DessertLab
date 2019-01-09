@@ -41,6 +41,7 @@ import {Navigation} from 'react-native-navigation'
              <StatusBar
         barStyle="light-content"
         />
+
         <TextInput
           placeholder="username or email"
           placeholderTextColor="rgba(255,255,255,0.7)"
