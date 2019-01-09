@@ -6,6 +6,11 @@
  * @flow
  */
 
+<<<<<<< HEAD
+=======
+import React, {Component} from 'react';
+import {Platform, StyleSheet, Text, View} from 'react-native';
+>>>>>>> 1c2aa8c34927d7e8c179f7ac0633b57d85ab2ea6
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',

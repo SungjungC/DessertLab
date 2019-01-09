@@ -1,14 +1,14 @@
 import React, {Component } from 'react'
-import {
-    StyleSheet,
-    View,
-    Image,
-    Text,
+import { 
+    StyleSheet, 
+    View, 
+    Image, 
+    Text, 
     KeyboardAvoidingView,
-    Platform,
+    Platform, 
     TextInput,
     TouchableOpacity,
-    StatusBar,
+    StatusBar, 
     Button
 } from 'react-native'
 import {Navigation} from 'react-native-navigation'
@@ -41,7 +41,6 @@ import {Navigation} from 'react-native-navigation'
              <StatusBar
         barStyle="light-content"
         />
-
         <TextInput
           placeholder="username or email"
           placeholderTextColor="rgba(255,255,255,0.7)"
