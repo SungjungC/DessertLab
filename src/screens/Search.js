@@ -6,6 +6,9 @@ import {
   Button
 } from "react-native";
 
+import { Input} from 'react-native-elements';
+
+
 class Search extends Component{
   static navigationOptions = {
     tabBarLabel:'Search'
@@ -13,7 +16,11 @@ class Search extends Component{
   render(){
     return(
       <View style={styles.container}>
-        <Text>Search</Text>
+          <Input
+            containerStyle={styles.inputContainerStyle}
+            placeholder="검색어를 입력하세요"
+            returnKeyType="search"
+          />
       </View>
     );
   }
@@ -24,6 +31,9 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: 'center',
-    justifyContent: 'center'
-  }
+  },
+  inputContainerStyle: {
+    width: '90%',
+    padding: 10,
+  },
 });

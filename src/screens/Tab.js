@@ -15,9 +15,9 @@ var MainScreenNavigator = TabNavigator({
   swipeEnabled:true,
   tabBarOptions:{
     activeTintColor:'white',
-    activeBackgroundColor:'#3A76FF',
+    activeBackgroundColor:'#3c6382',
     inactiveTintColor:'black',
-    inactiveBackgroundColor:'#9EBAFC',
+    inactiveBackgroundColor:'#0a3d62',
     lableStyle:{
       fontSize:16,
       padding:10
